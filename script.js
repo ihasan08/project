@@ -153,6 +153,7 @@ if (scoreDan < averageScore) {
 
 */
 
+/*
 var weightDan, weightJon, weightEric, averageWeight, extremeWeight, myWeight;
 
 weightDan = 150;
@@ -168,10 +169,57 @@ if (myWeight >= averageWeight) {
     else {
         alert('You are below the average weight');
     }
+*/
+
+/*
+var gradeJon, gradeKim, gradeDan, userGrade, avgGrade;
+gradeJon = 94;
+gradeKim = 86;
+gradeDan = 78;
+avgGrade = (gradeJon + gradeKim + gradeDan) / 3;
+userGrade = prompt('What is your score?');
 
 
+if (userGrade < avgGrade) {
+    console.log('You\'re grade is lower than average. Grade is ' + userGrade);
+}   
+    else {
+        console.log('You\'re grade is higher than average. Grade is ' + userGrade);
+    }
+*/
 
-
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 
