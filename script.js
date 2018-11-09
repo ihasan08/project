@@ -187,10 +187,6 @@ if (userGrade < avgGrade) {
         console.log('You\'re grade is higher than average. Grade is ' + userGrade);
     }
 */
-
-    
-    
-    
     
     
     
