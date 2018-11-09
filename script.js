@@ -1,4 +1,4 @@
-/*
+
 
 console.log('Hello World!!!');
 
@@ -16,11 +16,11 @@ var email = prompt('What is your email?');
 console.log(firstName +' '+ lastName +' ' + 'email is '+ email);
 */
 
-/*
-Basic Operators
-*/
 
-/*
+Basic Operators
+
+
+
 //Math
 var now = 2018;
 var yearJohn = now - 28;
@@ -51,8 +51,8 @@ var ageTim = 40;
 var average = (ageJohn + ageMark + ageTim) / 3;
 
 console.log(average);
-*/
-/*
+
+
 var scoreJohn, scoreTim, scoreEd, scoreJacob, scoreAverage, passOrFail;
 scoreJohn = 90;
 scoreTim = 88;
@@ -61,22 +61,22 @@ scoreJacob = 87;
 scoreAverage = (scoreJohn + scoreTim + scoreEd + scoreJacob) / 4;
 passingGrade = 85;
 
-/*
+
 console.log('Did John pass the exam?');
 console.log(scoreJohn >= passingGrade);
-*/
+
 
 //Multiple assignments
 
-/*
+
 var x,y;
 x = y = (3+5) * 4-6;
 
 console.log(x, y, y, y);
-*/
+
 
 //More operators
-/*
+
 var age = 30
 age +=2;
 console.log(age);
@@ -101,7 +101,7 @@ console.log(bmiMark, bmiJohn);
 console.log ('Does Mark have a higher BMI than John?' + ' ' + bmiResult);
 */
 
-/*
+
 var firstName = 'John';
 var civilStatus = 'single';
 
@@ -110,9 +110,9 @@ if (civilStatus === 'married') {
 }   else {
     console.log(firstName + ' will marry soon:)');
 }
-*/
 
-/*
+
+
 var massMark, massJohn, heightMark, heightJohn, bmiMark, bmiJohn, bmiResult;
 
 massMark = 54; //120 pounds
@@ -132,9 +132,9 @@ if (bmiMark > bmiJohn) {
 } else {
      console.log('John\'s BMI is greater than Mark\'s. His BMI is ' + bmiJohn);
      };
-*/
 
-/*
+
+
 var scoreJohn, scoreMark, scoreDan, scoreRob, averageScore;
 scoreJohn = 89;
 scoreMark = 90;
@@ -151,9 +151,9 @@ if (scoreDan < averageScore) {
         console.log ('His score is higher than average. His score is ' + scoreDan);
     };
 
-*/
 
-/*
+
+
 var weightDan, weightJon, weightEric, averageWeight, extremeWeight, myWeight;
 
 weightDan = 150;
@@ -169,9 +169,9 @@ if (myWeight >= averageWeight) {
     else {
         alert('You are below the average weight');
     }
-*/
 
-/*
+
+
 var gradeJon, gradeKim, gradeDan, userGrade, avgGrade;
 gradeJon = 94;
 gradeKim = 86;
@@ -186,7 +186,7 @@ if (userGrade < avgGrade) {
     else {
         console.log('You\'re grade is higher than average. Grade is ' + userGrade);
     }
-*/
+
     
     
     
