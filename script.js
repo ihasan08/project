@@ -234,7 +234,7 @@ if (age < 13)   {
     alert(firstName + ' is a man');
 }
 */
-
+/*
 var firstName = 'John'
 var age = prompt('What is your age?');
 
@@ -247,9 +247,11 @@ if (age < 18) {
     else {
         console.log('You can drink beer');
     }
+*/
+
+// Switch statements
     
-    
-    
+  
     
     
     
