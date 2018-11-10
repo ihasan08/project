@@ -1,5 +1,5 @@
 
-
+/*
 console.log('Hello World!!!');
 
 var firstName = 'Hassan';
@@ -14,7 +14,7 @@ alert(firstName +' '+lastName+' is a ' + job +' and ' +age+ ' years of age.'+ ' 
 
 var email = prompt('What is your email?');
 console.log(firstName +' '+ lastName +' ' + 'email is '+ email);
-*/
+
 
 
 Basic Operators
@@ -101,6 +101,7 @@ console.log(bmiMark, bmiJohn);
 console.log ('Does Mark have a higher BMI than John?' + ' ' + bmiResult);
 */
 
+/*
 
 var firstName = 'John';
 var civilStatus = 'single';
@@ -187,9 +188,17 @@ if (userGrade < avgGrade) {
         console.log('You\'re grade is higher than average. Grade is ' + userGrade);
     }
 
+*/
+
+var firstName = 'John';
+var age = 16;
+
+if (age < 13)   {
+    console.log(firstName + ' is a boy.');
     
-    
-    
+}   else {
+    console.log(firstName + ' is a man');
+}
     
     
     
