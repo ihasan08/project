@@ -212,7 +212,7 @@ if (age < 13)   {
 }
     
 */
-
+/*
 var firstName = 'John';
 var age = prompt(console.log('What is your age?'));
 
@@ -233,10 +233,20 @@ if (age < 13)   {
     else {
     alert(firstName + ' is a man');
 }
-    
-    
-    
-    
+*/
+
+var firstName = 'John'
+var age = prompt('What is your age?');
+
+if (age < 18) {
+    console.log('You can drink juice');
+} 
+    else if (age >= 30 && age <=50) {
+        console.log('You can drink hard liquor');
+    }
+    else {
+        console.log('You can drink beer');
+    }
     
     
     
