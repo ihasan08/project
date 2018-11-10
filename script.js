@@ -189,15 +189,49 @@ if (userGrade < avgGrade) {
     }
 
 */
-
+/*
 var firstName = 'John';
-var age = 16;
+var age = 50;
 
 if (age < 13)   {
     console.log(firstName + ' is a boy.');
     
-}   else {
+}   else if (age >= 16 && age < 20) {
+    console.log(firstName + ' is a teenager.');    
+}   
+    else if (age >= 20 && age <30) {
+        console.log(firstName + ' is a young man.');
+    }
+
+    else if (age >= 50) {
+        console.log(firstName + ' is a senior citizen.');
+    }
+
+    else {
     console.log(firstName + ' is a man');
+}
+    
+*/
+
+var firstName = 'John';
+var age = prompt(console.log('What is your age?'));
+
+if (age < 13)   {
+    alert(firstName + ' is a boy.');
+    
+}   else if (age >= 16 && age < 20) {
+    alert(firstName + ' is a teenager.');    
+}   
+    else if (age >= 20 && age <30) {
+        alert(firstName + ' is a young man.');
+    }
+
+    else if (age >= 50) {
+        alert(firstName + ' is a senior citizen.');
+    }
+
+    else {
+    alert(firstName + ' is a man');
 }
     
     
