@@ -101,6 +101,7 @@ console.log(bmiMark, bmiJohn);
 console.log ('Does Mark have a higher BMI than John?' + ' ' + bmiResult);
 
 
+/*
 
 var firstName = 'John';
 var civilStatus = 'single';
@@ -186,6 +187,7 @@ if (userGrade < avgGrade) {
     else {
         console.log('You\'re grade is higher than average. Grade is ' + userGrade);
     }
+<<<<<<< HEAD
     
 */
 
@@ -198,14 +200,73 @@ if (service = 'eyebrow') {
     else {
         console.log('The price is $50');
     }
+=======
+
+*/
+/*
+var firstName = 'John';
+var age = 50;
+
+if (age < 13)   {
+    console.log(firstName + ' is a boy.');
     
+}   else if (age >= 16 && age < 20) {
+    console.log(firstName + ' is a teenager.');    
+}   
+    else if (age >= 20 && age <30) {
+        console.log(firstName + ' is a young man.');
+    }
+
+    else if (age >= 50) {
+        console.log(firstName + ' is a senior citizen.');
+    }
+
+    else {
+    console.log(firstName + ' is a man');
+}
     
+*/
+/*
+var firstName = 'John';
+var age = prompt(console.log('What is your age?'));
+
+if (age < 13)   {
+    alert(firstName + ' is a boy.');
+>>>>>>> 45c0f126f5a9044e1eb0a41ba5d94ddae56a6a64
     
+}   else if (age >= 16 && age < 20) {
+    alert(firstName + ' is a teenager.');    
+}   
+    else if (age >= 20 && age <30) {
+        alert(firstName + ' is a young man.');
+    }
+
+    else if (age >= 50) {
+        alert(firstName + ' is a senior citizen.');
+    }
+
+    else {
+    alert(firstName + ' is a man');
+}
+*/
+/*
+var firstName = 'John'
+var age = prompt('What is your age?');
+
+if (age < 18) {
+    console.log('You can drink juice');
+} 
+    else if (age >= 30 && age <=50) {
+        console.log('You can drink hard liquor');
+    }
+    else {
+        console.log('You can drink beer');
+    }
+*/
+
+// Switch statements
     
-    
-    
-    
-    
+  
     
     
     
