@@ -251,6 +251,24 @@ if (myGrade < 7) {
     }
 */
 
+var service = prompt('What service are you looking for?');
+
+if (service === 'eyebrow') {
+    console.log('The cost is $10');
+    
+}
+    else if (service === 'facial') {
+        console.log ('The cost is $15');
+    }
+    else {
+        alert('We do not provide this service');
+
+}
+
+
+
+// Falsy values : undefined, null, o, ' ', NaN
+// truthy values : NOT fasly values
 
 
 
