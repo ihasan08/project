@@ -191,18 +191,6 @@ if (userGrade < avgGrade) {
     
 */
 
-var customer = 'John';
-var service = prompt('What kind of service are you looking for?');
-
-if (service = 'eyebrow') {
-    console.log('The price is $20');
-}
-    else {
-        console.log('The price is $50');
-    }
-=======
-
-*/
 /*
 var firstName = 'John';
 var age = 50;
@@ -249,40 +237,53 @@ if (age < 13)   {
     alert(firstName + ' is a man');
 }
 */
-/*
-var firstName = 'John'
-var age = prompt('What is your age?');
 
-if (age < 18) {
-    console.log('You can drink juice');
-} 
-    else if (age >= 30 && age <=50) {
-        console.log('You can drink hard liquor');
-    }
-    else {
-        console.log('You can drink beer');
-    }
-*/
+var gradeDan, gradeJohn, gradeEric;
 
-// Switch statements
-    
-  
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+gradeDan = 4;
+gradeJohn = 12;
+gradeEric = 2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     
     
