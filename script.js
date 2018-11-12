@@ -237,16 +237,19 @@ if (age < 13)   {
     alert(firstName + ' is a man');
 }
 */
+/*
+var myGrade = prompt('What grade are you in?')
 
-var gradeDan, gradeJohn, gradeEric;
-
-gradeDan = 4;
-gradeJohn = 12;
-gradeEric = 2;
-
-
-
-
+if (myGrade < 7) {
+    console.log('You are in primary');
+}
+    else if (myGrade >= 7 && myGrade <= 12) {
+        console.log('You are in secondary')
+    }
+    else {
+        console.log('You are not in REC');
+    }
+*/
 
 
 
