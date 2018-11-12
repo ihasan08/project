@@ -251,37 +251,30 @@ if (myGrade < 7) {
     }
 */
 
+// Salon example practice
+/*
+var name = prompt('What is your name?');
 var service = prompt('What service are you looking for?');
 
+
 if (service === 'eyebrow') {
-    console.log('The cost is $10');
+    console.log('Hi, ' + name +'. The cost is $9');
     
 }
     else if (service === 'facial') {
-        console.log ('The cost is $15');
+        console.log('Hi, ' + name +'. The cost is $30');
     }
+
+    else if (service === 'full service') {
+        console.log('Hi, ' + name +'. The cost is $100');
+}
     else {
-        alert('We do not provide this service');
+        console.log('Hi, ' + name +'. We do not provide this service');
 
 }
+*/
 
-
-
-// Falsy values : undefined, null, o, ' ', NaN
-// truthy values : NOT fasly values
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Coding Challenge #2
 
 
 
