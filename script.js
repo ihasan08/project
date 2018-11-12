@@ -1,5 +1,5 @@
 
-
+/*
 console.log('Hello World!!!');
 
 var firstName = 'Hassan';
@@ -14,7 +14,7 @@ alert(firstName +' '+lastName+' is a ' + job +' and ' +age+ ' years of age.'+ ' 
 
 var email = prompt('What is your email?');
 console.log(firstName +' '+ lastName +' ' + 'email is '+ email);
-*/
+
 
 
 Basic Operators
@@ -99,7 +99,7 @@ bmiResult = bmiMark > bmiJohn;
 console.log(bmiMark, bmiJohn);
 
 console.log ('Does Mark have a higher BMI than John?' + ' ' + bmiResult);
-*/
+
 
 
 var firstName = 'John';
@@ -186,9 +186,18 @@ if (userGrade < avgGrade) {
     else {
         console.log('You\'re grade is higher than average. Grade is ' + userGrade);
     }
+    
+*/
 
-    
-    
+var customer = 'John';
+var service = prompt('What kind of service are you looking for?');
+
+if (service = 'eyebrow') {
+    console.log('The price is $20');
+}
+    else {
+        console.log('The price is $50');
+    }
     
     
     
