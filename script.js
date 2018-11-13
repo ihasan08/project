@@ -277,14 +277,28 @@ if (service === 'eyebrow') {
 //Coding Challenge #2
 
 
+var teamJohn, teamMike, teamMary;
 
+teamJohn = (89 + 120 + 103) / 3; //average 104
+teamMike = (116 + 94 + 123) / 3; //average 111
+teamMary = (97 + 134 + 105) / 3; //average 112
 
+console.log ('John =' + teamJohn);
+console.log ('Mike =' + teamMike);
+console.log ('Mary =' + teamMary);
 
-
-
-
-
-
+if (teamMike > teamJohn && teamMike > teamMary) {
+    console.log('Mike\'s team had the higher average score. ' + 'They scored an average of ' + teamMike + ' points per game.');
+}
+    else if (teamJohn > teamMike && teamJohn > teamMary) {
+    console.log('John\'s team had the higher average score. ' + 'They scored an average of ' + teamMike + ' points per game.');    
+} 
+    else if (teamMary > teamJohn && teamMary > teamMike) {
+        console.log('Mary\'s team had the higher average score. ' + 'They scored an average of ' + teamMary + ' points per game.');
+}
+    else {
+        console.log('It is a draw!');
+    }
 
 
 
