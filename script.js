@@ -276,7 +276,7 @@ if (service === 'eyebrow') {
 
 //Coding Challenge #2
 
-
+/*
 var teamJohn, teamMike, teamMary;
 
 teamJohn = (89 + 120 + 103) / 3; //average 104
@@ -299,26 +299,31 @@ if (teamMike > teamJohn && teamMike > teamMary) {
     else {
         console.log('It is a draw!');
     }
+*/
+/*
+var gradeJohn, gradeDan, gradeEric;
 
+gradeJohn = (90 + 82+ 93);//average 259
+gradeDan = (90 + 82 + 93);//average 255
+gradeEric = (90 + 82 + 93);// average 262
 
+console.log('John= ' + gradeJohn);
+console.log('Dan= ' + gradeDan);
+console.log('Eric= ' + gradeEric);
 
-
-
-
-
-
-
-
-
-
-
+if (gradeJohn > gradeDan && gradeJohn > gradeEric) {
+    console.log('John has the highest grade with a score of ' + gradeJohn);
+}
+    else if (gradeDan > gradeJohn && gradeDan > gradeEric) {
+        console.log('Dan has the highest grade with a score of ' + gradeDan);
+}
+    else if (gradeEric > gradeJohn && gradeEric > gradeDan) {
+        console.log('Eric has the highest grade with a score of ' + gradeEric);
+}
+    else {
+        console.log('It is a draw!');
+    }
     
-    
-    
-
-
-
-
-
+*/
 
 
