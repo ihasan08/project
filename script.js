@@ -212,8 +212,7 @@ if (age < 13)   {
     else {
     console.log(firstName + ' is a man');
 }
-    
-*/
+*/    
 /*
 var firstName = 'John';
 var age = prompt(console.log('What is your age?'));
@@ -325,5 +324,19 @@ if (gradeJohn > gradeDan && gradeJohn > gradeEric) {
     }
     
 */
+
+//Functions
+
+function calculateAge(birthYear) {
+    return 2018 - birthYear;
+}
+
+var ageJohn=calculateAge(1990);
+
+console.log(ageJohn);
+
+
+
+
 
 
