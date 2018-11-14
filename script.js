@@ -324,7 +324,33 @@ if (gradeJohn > gradeDan && gradeJohn > gradeEric) {
     }
     
 */
+/*
+var teamJohn, teamDan, teamEric;
 
+teamJohn = (118 + 89 + 94) / 3 //97
+teamDan = (118 + 89 + 94) / 3 //98
+teamEric = (118 + 89 + 94) / 3 //94
+
+console.log('John = ' + teamJohn);
+console.log('Dan = ' + teamDan);
+console.log('Eric = ' + teamEric);
+
+if (teamJohn > teamDan && teamJohn > teamEric) {
+    console.log('John\'s team has the highest average score, which is' + teamJohn);
+}
+    else if (teamDan > teamJohn && teamDan > teamEric) {
+    console.log('Dan\'s team has the highest average score, which is' + teamDan);
+}
+    else if (teamEric > teamJohn && teamEric > teamDan) {
+    console.log('Eric\'s team has the highest average score, which is' + teamEric);
+}
+    else {
+    console.log('It is a draw!');    
+}
+*/
+
+
+/*
 //Functions
 
 function calculateAge(birthYear) {
@@ -334,8 +360,7 @@ function calculateAge(birthYear) {
 var ageJohn=calculateAge(1990);
 
 console.log(ageJohn);
-
-
+*/
 
 
 
