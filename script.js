@@ -422,10 +422,26 @@ console.log(scoreDan, scoreEric, scoreJulie);
 
 //Function practice
 
+/*
+function birthYear(calculateage) {
+    return 2018 - calculateage
+}
 
+var ageJohn = birthYear(1990);
+var ageEric = birthYear(1987);
 
+console.log(ageJohn,ageEric);
+*/
 
+/*
+function finalAnswer(input) {
+    return (input + 76 + 22) / 2
+}
 
+var calculation = finalAnswer(100);
+
+console.log(calculation);
+*/
 
 
 
