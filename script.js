@@ -362,7 +362,57 @@ var ageJohn=calculateAge(1990);
 console.log(ageJohn);
 */
 
-//test
+var teamJohn, teamDan, teamEric;
+teamJohn = (118 + 98 + 108) / 3 //108
+teamDan = (118 + 98 + 108) / 3 //106
+teamEric = (118 + 98 + 108) / 3 //107
+
+console.log('John = ' + teamJohn);
+console.log('Dan = ' + teamDan);
+console.log('Eric = ' + teamEric);
+
+if (teamJohn > teamDan && teamJohn > teamEric) {
+    console.log('John\'s team has the highest point average');
+}
+
+else if (teamDan > teamJohn && teamDan > teamEric) {
+    console.log('Dan\'s team has the highest point average');
+}
+
+else if (teamEric > teamJohn && teamEric > teamDan) {
+    console.log('Eric\'s team has the highest point average');
+}
+
+else {
+    console.log('It is a draw!');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
