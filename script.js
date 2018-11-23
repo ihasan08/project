@@ -362,6 +362,7 @@ var ageJohn=calculateAge(1990);
 console.log(ageJohn);
 */
 
+/*
 var teamJohn, teamDan, teamEric;
 teamJohn = (118 + 98 + 108) / 3 //108
 teamDan = (118 + 98 + 108) / 3 //106
@@ -386,6 +387,40 @@ else if (teamEric > teamJohn && teamEric > teamDan) {
 else {
     console.log('It is a draw!');
 }
+*/
+
+/*
+function calculateAge(birthYear) {
+    return 2018 - birthYear;
+}
+
+var ageJohn=calculateAge(2007);
+
+console.log(ageJohn);
+*/
+
+/*
+function finalPrice(cost) {
+    return 10 + cost;
+}
+
+var finalCost = finalPrice(1000);
+    
+console.log(finalCost);
+
+function curveScore(score) {
+    return 10 + score;
+}
+
+var scoreDan = curveScore(83);
+var scoreEric = curveScore(77); 
+var scoreJulie = curveScore(89);
+
+
+console.log(scoreDan, scoreEric, scoreJulie);
+*/
+
+//Function practice
 
 
 
