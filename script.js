@@ -443,6 +443,7 @@ var calculation = finalAnswer(100);
 console.log(calculation);
 */
 
+/*
 function dasoond(salary) {
     return (salary*12.5) / 100
 }
@@ -450,6 +451,49 @@ function dasoond(salary) {
 var dasoondAmount = dasoond(1000);
     
 console.log('Your Dasoond amount is ' + '$' + dasoondAmount);
+*/
+/*
+function dasoond(salary) {
+    return (salary*12.5) / 100
+}
+
+var dasoondAmount = prompt('How much is your salary?');
+console.log('Your Dasoond amount is ' + '$' + dasoond(dasoondAmount));
+*/
+
+function calculateAge(birthYear) {
+    return 2018 - birthYear
+}
+
+var age = prompt('When were you born?');
+alert('Based on your birth year, you are ' + calculateAge(age) + ' year\'s old');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
