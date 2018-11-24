@@ -469,12 +469,35 @@ var age = prompt('When were you born?');
 alert('Based on your birth year, you are ' + calculateAge(age) + ' year\'s old');
 */
 
+//function practice
+/*
+function calculateTax(price) {
+    return (price * 8.875) / 100
+}
+
+var cost = prompt('What is the cost of the item you are trying to purchase?');
+
+console.log('Sales tax on this item would be ' + '$' + calculateTax(cost));
+*/
+
+// Function and if else
 
 
+function identifyProfession(profession) {
+    if (profession === 'driver') {
+        console.log('Take\'s students to school and drops them back home');
+    }
+    
+    else if (profession === 'teacher') {
+        console.log('Teaches students Math and Science');
+    }
+    else {
+        console.log('This is not a profession');
+    }
+}
 
-
-
-
+var profession = prompt('What is your profession?');
+console.log(identifyProfession(profession));
 
 
 
