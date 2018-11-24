@@ -491,6 +491,10 @@ function identifyProfession(profession) {
     else if (profession === 'teacher') {
         console.log('Teaches students Math and Science');
     }
+    
+    else if (profession === 'coach') {
+        console.log('Teaches basketball and football');
+    }
     else {
         console.log('This is not a profession');
     }
