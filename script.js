@@ -443,13 +443,13 @@ var calculation = finalAnswer(100);
 console.log(calculation);
 */
 
-
-
-
-
-
-
-
+function dasoond(salary) {
+    return (salary*12.5) / 100
+}
+    
+var dasoondAmount = dasoond(1000);
+    
+console.log('Your Dasoond amount is ' + '$' + dasoondAmount);
 
 
 
