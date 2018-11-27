@@ -482,7 +482,7 @@ console.log('Sales tax on this item would be ' + '$' + calculateTax(cost));
 
 // Function and if else
 
-
+/*
 function identifyProfession(profession) {
     if (profession === 'driver') {
         console.log('Take\'s students to school and drops them back home');
@@ -502,6 +502,8 @@ function identifyProfession(profession) {
 
 var profession = prompt('What is your profession?');
 console.log(identifyProfession(profession));
+*/
+
 
 
 
