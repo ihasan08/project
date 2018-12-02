@@ -456,7 +456,7 @@ console.log('Your Dasoond amount is ' + '$' + dasoondAmount);
 function dasoond(salary) {
     return (salary*12.5) / 100
 }
-
+/*
 var dasoondAmount = prompt('How much is your salary?');
 console.log('Your Dasoond amount is ' + '$' + dasoond(dasoondAmount));
 */
@@ -504,13 +504,7 @@ var profession = prompt('What is your profession?');
 console.log(identifyProfession(profession));
 */
 
-
-
-
-
-
-
-
+Test test
 
 
 
